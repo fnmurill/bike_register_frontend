@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'pages/login.dart';
 import 'pages/sign_up.dart';
 import 'pages/home.dart';
+import 'pages/bike_register.dart';
 import 'pages/splash.dart';
 
 void main() => runApp(MyApp());
@@ -21,6 +22,7 @@ class MyApp extends StatelessWidget {
         "login": (context) => LoginPage(),
         "signup": (context) => SignUpPage(),
         "home": (context) => HomePage(),
+        "bikeregister": (context) => BikeRegisterPage(),
 
       },
     );

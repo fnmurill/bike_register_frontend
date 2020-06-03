@@ -32,7 +32,7 @@ class _InputTextState extends State<InputText> {
           labelText: widget.label,
           alignLabelWithHint: true,
           labelStyle: TextStyle(fontSize: widget.fontSize),
-          contentPadding: EdgeInsets.symmetric(vertical: 10)),
+          contentPadding: EdgeInsets.symmetric(vertical: 5)),
     );
   }
 }
